@@ -1,0 +1,19 @@
+ 
+
+ Big O Binary Search 
+
+ Binary search only works on sorted arrays 
+ if not sorted you must use linear search
+
+
+Worst and average case 
+O(log n) 
+
+Ex: 16 elements in array = 4 steps if value is not in array
+16 log 2 = 4
+32 elements = 5 steps (worst case again)
+32 log 2 = 5
+
+Best case 
+O(1)
+Because it is possible that the first pick (middle) is the value we are searching for, very rare case. 

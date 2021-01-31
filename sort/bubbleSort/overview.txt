@@ -1,0 +1,8 @@
+
+
+//Bubble Sort
+
+a sorting algorithm where the largest values bubble up to the top
+the largest value in each iteration bubbles to the last place in the array 
+you dont have to loop the length of the array after bubbliing since unsorted values decrease by 
+array.length -1 
