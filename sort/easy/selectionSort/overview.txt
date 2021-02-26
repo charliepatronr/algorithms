@@ -1,0 +1,17 @@
+Selection Sort 
+
+
+
+Similar to buuble sort, but instead of first placing large values into sorted position, it places
+small values into sorted position
+
+
+Starts with first value, itereates through array, compares with each value trying to find a min, and inserts
+the min as the first value. Repeats process at arr[1] and continues to arr[n-1]
+
+TIME COMPLEXITY 
+
+O(n^2)
+Only better than bubble sort, if you want to minimize the number of swaps you want to make
+better in writing to memory
+

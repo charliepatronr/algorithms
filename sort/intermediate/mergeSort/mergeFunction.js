@@ -23,7 +23,7 @@
 //             if(arr2[j] > arr1[i]){
 //                 newArr.push(arr1[i])
 //                 i ++;
-//                 console.log(newArr, i, 'iiiiiii')
+//                 console.log(newArr, i, 'iiiiiii') 0
 
 //             } else if( arr1[i] > arr2[j]){
 //                 newArr.push(arr2[j])
@@ -77,12 +77,12 @@ function merge(arr1, arr2){
     // OR WITH OTHER WHILE LOOPS if you can't use splice or other similar function
 
     while( i < arr1.length){
-        newArr.push(arr[i])
+        newArr.push(arr1[i])
         i++;
     }
 
-    while( j < arr1.length){
-        newArr.push(arr[j])
+    while( j < arr2.length){
+        newArr.push(arr2[j])
         j++;
     }
 
@@ -91,4 +91,4 @@ function merge(arr1, arr2){
 }
 
 
-console.log(merge([1,2,5,9], [10,20,21,30]))
+console.log(merge([10,24], [76, 73]))

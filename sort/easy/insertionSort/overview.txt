@@ -1,0 +1,13 @@
+
+
+INSERTION SORT 
+
+
+Bukld up the sort by gradually creating a larger left half which is always sorted
+
+TIME COMPLEXITY 
+O(n^2)
+
+If data is almost sorted it is good 
+If you are looking for a sorting algorithm that works when data is coming in live or streaming INSERTION
+sort works well

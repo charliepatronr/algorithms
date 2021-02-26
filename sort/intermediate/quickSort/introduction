@@ -1,0 +1,32 @@
+
+
+
+
+// liKE MERGE SORT, Quick sort exploits the fact that arrays of 
+// 0 ir 1 element are always sorted 
+
+// Works by selecting one elment called the pivot 
+// and finding the index where the pivot should end up
+// in the sorted array
+
+// Moves all the numbers in which are smaller than the pivots 
+// to the left of the array 
+// and the greater ones to the right 
+// ASSURING that the pivot is in the correct index 
+// it repeats the process untill the array is sorted 
+// the order on either side of the pivot doesnt matter
+// this helper function should do everything in place and not 
+// create a new array
+
+// it should return the index of the pivot 
+
+
+// the run time of quick sort depends in part on how one selects the pivot
+
+// ideally the pivot should be chosen so that it is roughly the median value in the data set 
+// we will pock the first element to make it simple
+
+
+
+
+
